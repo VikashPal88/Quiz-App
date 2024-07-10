@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+
+.bgColor {
+    @apply bg-gradient-to-tr from-purple-500 via-purple-600 to-purple-600
+}
+
+.boxes {
+    @apply h-20 w-32 bg-red-400 flex justify-center flex-col rounded-xl bg-indigo-600 cursor-pointer hover:scale-105 transition-all
+}
+
+.imgs {
+    @apply absolute translate-x-0 -translate-y-7 -rotate-12 h-32 w-28
+}
+
+.names {
+    @apply mt-11 text-lg font-bold
+}
+
+.btns {
+    @apply h-12 w-52 bg-white rounded-xl font-bold text-lg hover:bg-slate-300 transition-all leading-5 cursor-pointer
+}
+
+@tailwind utilities;
+
+.correct {
+    background-color: rgb(70, 221, 70);
+}
+
+.wrong {
+    background-color: rgb(232, 77, 77);
+}
